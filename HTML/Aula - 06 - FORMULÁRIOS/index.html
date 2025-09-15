@@ -1,0 +1,85 @@
+<!-- 
+ - atalho alt + shift + A = comentarios;
+ - ctrl + shift + P = atalho para criação de tag dentro do texto;
+ - alt + shift + f = identa o codigo;
+ - Segurar alt seleciona e escreve mais de um item de uma vez;
+ - 
+ -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <h1>Trabalhando com Formulários</h1>
+    <p>Formulario simples</p>
+    <form action="">
+        <!-- A tag <form> cria um formulario no seu site, para o preenchimento de dados, como dados de cadastro ou uma barra de pesquisa -->
+        <p>
+            <label for="inome">Nome:</label>
+            <!-- a tag <label> é obrigatorio para a tag <imput> descreve a informação para o input -->
+            <input type="text" name="nome" id="inome">
+            <!-- a tag <imput> cria um botao para com interação com diversas funções que são definidas com o atributo type, nomeado com o name e identificado pelo id -->
+        </p>
+        <p>
+             <!-- O atributo Placeholder cria um texto "fantasma" dentro da caixa de texto;
+        O atributo required torna o campo do formulario obrigatorio -->
+        <label for="">Nome:</label>
+        <input type="text" placeholder="Digite aqui seu nome" required>
+        <input type="submit" value="Enviar">
+        </p>
+        <p>
+            <label for="isobrenome">Sobrenome:</label> <!-- cria um campo para inserção de texto -->
+            <input type="text" name="sobrenome" id="isobrenome"></input>
+        </p>
+        <p>
+            <label for="iemail">E-mail</label> <!-- cria um campo para inserção de email -->
+            <input type="email" name="email" id="iemail">
+        </p>
+        <p>
+            <label for="isenha">Senha:</label> <!-- cria uma campo especifico para senhas com proteção de senha -->
+            <input type="password" name="senha" id="isenha">
+        </p>
+        <p>
+            Cor Favorita: <br>
+            <label for="ipreto">Preto</label> <!-- O type radio cria itens que podem ser marcados -->
+            <input type="radio" name="cor" id="ipreto"> <br>
+            <label for="ibranco">Branco</label>
+            <input type="radio" name="cor" id="ibranco"> <br>
+            <label for="ivermelho">Vermelho</label>
+            <input type="radio" name="cor" id="ivermelho"> <br>
+            <label for="ilaranja">Laranja</label>
+            <input type="radio" name="cor" id="ilaranja">
+        </p>
+        <p>
+            Gosto Músical <br>
+            <input type="checkbox" name="trap" id="itrap"> <!-- o type checkbox cria uma check list -->
+            <label for="itrap">Trap</label> <br>
+            <input type="checkbox" name="rap" id="irap">
+            <label for="itrap">Rap</label><br>
+            <input type="checkbox" name="pop" id="ipop">
+            <label for="ipop">Pop</label>
+        </p>
+        <p>Curso:
+            <select name="" id=""> <!-- a tag <select> cria uma caixa com intens a serem selecionados -->
+                <option value="">Selecione...</option>
+                <option value="">Desenvolvimento Web</option>
+                <option value="">Suporte em T.I</option>
+                <option value="">Cloud - Computação em Nuvem</option>
+                <option value="">Gestão Empresarial</option>
+            </select>
+        </p>
+        <p>
+            <label for="imensagen">Mensagem:</label>
+            <textarea name="mensagem" id="imensagem" cols="30" rows="10"></textarea> <!-- a tag <textarea> cria uma caixa de texto a ser preenchida -->
+        </p>
+        <input type="submit" value="Enviar"> <!-- O atributo value cria o nome para o botão de enviar -->
+        <input type="reset" value="Limpar"> <!-- Reset cia um botao que limpa todos os dados preenchidos -->
+    </form>
+</body>
+
+</html>
