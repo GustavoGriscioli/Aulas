@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+}
+h1{
+    background-color: chocolate;
+    color: black;
+    margin: 100px;
+    padding: 200px;
+    border-radius: 100px;
+}
+ 
+.grupo{
+    background-color: chocolate;
+    color: white;
+    margin: 100px;
+    padding: 100px;
+    border-radius: 50px;
+
+}
