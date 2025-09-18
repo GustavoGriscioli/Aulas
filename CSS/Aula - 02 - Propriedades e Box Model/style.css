@@ -1,0 +1,35 @@
+
+/* mudando a cor de fundo, a cor do texto e o tipo de texto */
+.caixa{
+    background-color: rgb(0, 0, 134);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;/* ajusta o tamanho da caixa hotizontal */
+    height: 500px;/* ajusta o tamanho da caixa - vertical */
+    margin-bottom: 200px; 
+    margin-left: 300px;
+    padding: 200px;
+    box-sizing: border-box; /*  */
+     /* o conteudo da pagina tem 3 camadas, o margin, padding e border, eles são modificados em sentido horario partindo do top, right, botton e left */
+
+}
+/* mudando a cor do fundo com rgb e hexadecimal pelo color picker */
+.caixa1{
+    background-color: rgb(247, 67, 100);
+    color: #878787;
+    width: 500px;/* ajusta o tamanho da caixa hotizontal */
+    height: 500px;/* ajusta o tamanho da caixa - vertical */
+    
+}
+/* mudando a cor do fundo com rgb e hexadecimal pelo collor picker*/
+.caixa2{
+    background-color: rgb(247, 37, 76);
+    color: rgb(135, 135, 135);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbKzeu_-w3jB4PW2mj9HQ93un647-Hu4krQA&s); /* adiciona uma imagem de fundo da caixa */
+    background-position: center; /* ajusta a posicao do fundo da caixa */
+    width: 500px; /* ajusta o tamanho da caixa hotizontal */
+    height: 300px; /* ajusta o tamanho da caixa - vertical */
+    background-repeat: no-repeat; /* faz com que a menagem nao se repita */
+    background-size: cover; /* faz com que a imagem preencha a caixa inteira */
+    /* background-size: contain; *//* faz com que a imagem preencha a caixa inteira sem corte */
+}
