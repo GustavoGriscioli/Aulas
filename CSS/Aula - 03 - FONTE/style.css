@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+body{
+    background-color: rgb(87, 0, 0); /* muda a cor do fundo */
+    margin: 20px; /* cria uma margen para todo o corpo da pagina */
+}
+
+#cabeçalho{
+    color: white; /* muda a cor dos textos */
+    text-align: center; /* centraliza o texto */
+    border-radius: 10px; /* arredonda a borda do fundo */
+    background-color: rgb(148, 0, 0); /* coloca uma cor para o fundo */
+    padding: 10px; /* desloca o texto, quase como uma outra camada da margem */
+}
+
+.titulo-principal{ 
+    font-weight: bolder; /* muda o peso da fonte */
+    font-family: "Bitcount Prop Double Ink", system-ui; /* muda a familia da fonte */
+    font-optical-sizing: auto;
+    font-style: normal; /* muda o estilo da fonte do texto*/
+}
+
+a{
+    color: rgb(255, 255, 255); 
+    text-decoration: none; /* tira todos os efeitos do texto */
+}
+
+.caixa{
+    background-color: rgb(148, 0, 0);
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white; 
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.subtitulo1{
+    color: white;
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
