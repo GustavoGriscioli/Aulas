@@ -20,6 +20,7 @@ body{
     font-family: "Bitcount Prop Double Ink", system-ui; /* muda a familia da fonte */
     font-optical-sizing: auto;
     font-style: normal; /* muda o estilo da fonte do texto*/
+    font-size: 50px; /* muda o tamanho da fonte / padrao de 16px */
 }
 
 a{
@@ -33,18 +34,22 @@ a{
     padding: 10px;
     border-radius: 10px;
     color: white; 
-    font-family: "Noto Sans JP", sans-serif;
+}
+
+p{
+    font-family: "Noto Sans JP", serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-
+    font-size: 1em; /* ele define um tamanho padrao, "tamanho pai" q é de 16px (no computador e se adapta a plataforma utilizada, por ex: 1em no mobile = 10px ) = 1em, 2em = 36px, ou seja em = 16px */
 }
 
 .subtitulo1{
     color: white;
-    font-family: "Zalando Sans Expanded", sans-serif;
+    font-family: "Zalando Sans Expanded", serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    font-size: 30px;
 }
 

@@ -1,0 +1,29 @@
+/* pseudoclasses e pseudoelementos */
+
+.surpresa{
+    background-color: blue;
+    width: 300px;
+    padding: 30px;
+    color: white;
+}
+
+.surpresa > p { /* mexe com o paragrafo dentro da div somente */
+    display: none; /* faz com q o texto no paragrafo suma da caixa */
+
+}
+
+.surpresa:hover > p {
+    display: inline; /* faz com que o texto no paragrafo reapareça ao colocar o mouse em cima */
+}
+
+.surpresa:hover{
+    background-color: red;
+}
+
+img{
+    width: 100px;
+}
+
+img:hover{
+    width: 150px;
+}
