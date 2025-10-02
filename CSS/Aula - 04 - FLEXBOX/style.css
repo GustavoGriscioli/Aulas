@@ -1,0 +1,40 @@
+* {
+    margin: 0%;
+    color: white;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    display: inline; /* display é tudo que a gente ve na tela; inline significa que o display vai ficar na mesma linha e alinhar os conteudos em seus diferentes blocos*/
+}
+
+a{
+    background-color: grey;
+    color: white;
+    display: block; /* display é tudo que a gente ve na tela; block significa que o display vai ficar todo no mesmo bloco; none deixa o display invisivel */
+}
+
+.container{
+    background-color: blue;
+    display: flex; /* Ativar o flex box */
+    height: 700px;
+    flex-direction: row; /* altera a posição do eixo principal e transversal (row, principal (main axis) = esquerda pra direita; transversal (cross axis) = de cima para baixo. Colunm, principal = cima para baixo; transversal = esquerda para a direita. O row ou column-inverted inverte a direção do eixo principal e transversal */
+    /* justify-content: center; alinha os itens no centro do eixo principal;
+    justify-content: flex-start; alinha com o começo do eixo principal;
+    justify-content: flex-end; alinha com o final do eixo principal;
+    justify-content: space-between; cria um espaçamento entre os itens (somente entre os itens);
+    justify-content: space-around; cria um espaçamento ao redor dos itens e cria uma distancia, de um item para outro, de dois itens;
+    justify-content: space-evenly; cria um espaçamento igual entre todos os itens
+    */
+    /* gap: 50px; cria um espaçamento entre os itens;*/
+    align-items: stretch; /* align-items: center; Mexe no alinhamento e espaçamento do eixo transversal para o centro.
+    align-items: flex-start; Mexe no alinhamento e espaçamento do eixo transversal para o inicio do eixo transversal.
+    align-items: stretch; alinha o espaçamento transversal dos itens para o tamanho de todo o container  */
+}
+
+.item{
+    border: 1px solid black;
+    padding: 10px;
+ 
+}
