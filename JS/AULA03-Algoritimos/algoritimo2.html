@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritimo 2</title>
+</head>
+<body>
+    
+
+
+
+
+    <script>
+        const nome = prompt("Digite seu nome:");
+        const ra = prompt("Digite seu RA:");
+        console.log(`Professor:${nome} RA:${ra}`);
+
+        confirm(`Bom dia professor ${nome}! Digite a nota dos alunos no sistema para computar a média final do aluno.`);
+        const aluno = prompt("Digite o nome do aluno:");
+        const raaluno = prompt("Digite o RA do aluno:");
+        console.log(`Aluno:${aluno} RA:${raaluno}`);
+        const html = Number(prompt("Nota de HTML:"));
+        const css = Number(prompt("Nota de CSS:"));
+        const js = Number(prompt("Nota de JavaScript:"));
+        const git = Number(prompt("Nota de GIT:"));
+        const tcc = Number(prompt("Nota do TCC:"));
+        let média = (html + css + js + git + tcc) / 5;
+        alert(`A média final do aluno ${aluno} é: ${média}`);
+    </script>
+</body>
+</html>

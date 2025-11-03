@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritimo 1</title>
+</head>
+<body>
+    
+
+
+
+
+    <script>
+        let nome = prompt("Seja bem-vindo cliente! Qual é seu nome? Digite abaixo:");
+        let cpf = prompt(`Certo ${nome}! Agora digite seu CPF:`);
+        console.log(nome);
+        console.log(cpf);
+        let preço = Number(prompt(`Olá ${nome}! Seja muito bem-vindo a nossa loja virtual! Digite o preço do produto (Em Reais, utilizando ponto no lugar da virgula ) selecionado para aplicar o desconto de 15%:`));
+        let desconto = preço * 0.15;
+        let preçofinal = preço - desconto;
+        alert(`Certo ${nome}! O valor final do seu produto foi computado. Após o desconto de 15%, o valor final é de R$${preçofinal}`);
+        
+
+
+    </script>
+</body>
+</html>
